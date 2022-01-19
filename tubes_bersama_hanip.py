@@ -230,3 +230,4 @@ tabs = Tabs(tabs=[
                 ])
 
 show(tabs)
+curdoc().add_root(tabs)
