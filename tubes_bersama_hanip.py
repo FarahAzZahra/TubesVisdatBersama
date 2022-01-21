@@ -34,7 +34,7 @@ from datetime import date
 # Download dataset
 !gdown --id 1iXEWLifc-ugBWM0HxILCT5xWBma0mcFi
 
-data = pd.read_csv("WHO-COVID-19-global-data.csv", parse_dates=['Date_reported'])
+data = pd.read_csv("Data/WHO-COVID-19-global-data.csv", parse_dates=['Date_reported'])
 data
 
 pd.unique(data["Country"])
