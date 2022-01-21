@@ -155,6 +155,9 @@ tooltips = [
            ]
 
 fig.add_tools(HoverTool(tooltips=tooltips))
+fig.legend.location = 'top_left'
+fig.legend.click_policy = 'hide'
+fig.legend.click_policy = 'mute'
 
 # perlihatkan slider
 date_range_slider.js_link("value", fig.x_range, "start", attr_selector=0)
